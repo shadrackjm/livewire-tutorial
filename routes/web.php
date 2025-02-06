@@ -7,4 +7,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/counter', Counter::class); //full page component
